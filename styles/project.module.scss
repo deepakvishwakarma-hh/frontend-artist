@@ -6,7 +6,6 @@
     @media screen and (max-width: 800px) {
         margin: 1rem;
     }
-
 }
 
 
@@ -57,9 +56,13 @@
             font-size: 1.3rem;
             line-height: 2.6rem;
             opacity: .8;
+
+            @media screen and (max-width: 500px) {
+                line-height: 1.5rem;
+                font-size: 1rem;
+            }
         }
     }
-
 
     .image_showcase {
         display: flex;
