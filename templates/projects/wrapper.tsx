@@ -1,14 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 
+import { useEffect } from "react";
 import classes from "../../styles/project.module.scss";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { useEffect } from "react";
-
 
 const squareVariants = {
-    visible: { opacity: 1, y: 0, transition: { duration: 1 } },
-    hidden: { opacity: 0, y: 100 }
+    visible: { opacity: 1, transition: { duration: 1 } },
+    hidden: { opacity: 0, }
 };
 
 const Wrapper = ({ date, heading, paragraph, images, index }: any) => {

@@ -1,13 +1,20 @@
-import type { NextPage } from 'next'
-import Introduction from '../templates/introduction'
+import Head from 'next/head'
+// templates (comps)
 import Project from '../templates/projects'
+import Brief from '../templates/brief-intro'
+import Introduction from '../templates/introduction'
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
-    <div>
+    <>
+      <Head>
+        <title>Frontend Artist</title>
+        <meta name="description" content="Frontend Developer Portfolio"></meta>
+      </Head>
       <Introduction />
       <Project />
-    </div>
+      <Brief />
+    </>
   )
 }
 
