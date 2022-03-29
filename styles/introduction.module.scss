@@ -14,7 +14,11 @@
     @media screen and (max-width: 1000px) {
         flex-direction: column;
         align-items: center;
-        padding: 2rem;
+        padding: 1rem;
+    }
+
+    @media screen and (max-width: 500px) {
+        padding: 0;
     }
 
 
@@ -22,9 +26,14 @@
         flex: 2;
         padding: 2rem;
 
+        @media screen and (max-width: 500px) {
+            padding: 1;
+        }
+
         p {
             line-height: 3rem;
             font-size: 1.8rem;
+            padding: 1rem;
             background: rgba(0, 0, 0, 0.623);
         }
     }
