@@ -10,6 +10,7 @@ const Home = () => {
       <Head>
         <title>Frontend Artist</title>
         <meta name="description" content="Frontend Developer Portfolio"></meta>
+        <meta name="theme-color" content="black"></meta>
       </Head>
       <Introduction />
       <Project />
