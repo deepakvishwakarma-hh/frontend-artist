@@ -15,13 +15,14 @@
     margin-top: 10rem;
     // height: 1000px;
     background: rgb(110, 110, 110);
-    border-radius: 10px;
-    // background: url('/bg.svg') no-repeat;
-    background-image: linear-gradient(150deg, blue, rgb(26, 26, 26) 30%);
+    border-radius: 1rem;
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: top left;
     padding: 4rem;
     color: white;
-
+    box-shadow: 1px 1px 5px 5px rgba(128, 128, 128, 0.226);
+    ;
 
     // as date
     h3 {
@@ -53,9 +54,27 @@
 
 
     .image_showcase {
+        display: flex;
+        overflow-x: scroll;
+
+        &::-webkit-scrollbar {
+            width: .5em;
+            height: 3px;
+        }
+
+        &::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px rgba(250, 250, 250, 0.137);
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: darkgrey;
+            outline: 1px solid slategrey;
+        }
+
         img {
             background: red;
             margin: 2rem;
+            max-width: 500px;
         }
     }
 
