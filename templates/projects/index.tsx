@@ -5,6 +5,7 @@ const Project = () => {
         <div className={classes.container}>
 
             <Wrapper
+                link="https://github.com/deepakvishwakarma-hh/momentary-talk"
                 index={0}
                 date="2020 - current"
                 heading="Momentary ~ Web application"
@@ -14,6 +15,7 @@ const Project = () => {
             />
 
             <Wrapper
+                link="https://github.com/deepakvishwakarma-hh/crypto-market"
                 index={1}
                 date="2020 - current"
                 heading="Cryptoinf Place ~ Web application"
@@ -22,6 +24,7 @@ const Project = () => {
                 images={['/project/crypto.png', '/project/crypto1.png', '/project/crypto2.png']}
             />
             <Wrapper
+                link="https://github.com/deepakvishwakarma-hh/blog-website-nextjs"
                 index={2}
                 date="2020 - current"
                 heading="Blogoo ~ Web application"

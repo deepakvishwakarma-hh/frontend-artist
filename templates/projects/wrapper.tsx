@@ -1,16 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
-
+import Router from "next/router";
 import { useEffect } from "react";
 import classes from "../../styles/project.module.scss";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+
 
 const squareVariants = {
     visible: { opacity: 1, transition: { duration: 1 } },
     hidden: { opacity: 0, }
 };
 
-const Wrapper = ({ date, heading, paragraph, images, index }: any) => {
+const Wrapper = ({ date, heading, paragraph, images, index, link }: any) => {
 
     const controls = useAnimation();
     const [ref, inView] = useInView();
@@ -33,6 +34,10 @@ const Wrapper = ({ date, heading, paragraph, images, index }: any) => {
         backgroundImage: 'url(' + `/wrapper/${index}.png` + ')',
     }
 
+    const onClick = () => {
+        Router.push(link)
+    }
+
     return (
         <motion.div
             ref={ref}
@@ -40,6 +45,7 @@ const Wrapper = ({ date, heading, paragraph, images, index }: any) => {
             animate={controls}
             variants={squareVariants}
             style={style}
+            onClick={onClick}
             className={classes.wrapper}>
 
             <h3>{date}</h3>
@@ -47,6 +53,8 @@ const Wrapper = ({ date, heading, paragraph, images, index }: any) => {
                 <h1>{heading}</h1>
                 <p>{paragraph}</p>
             </div>
+
+
             <div className={classes.image_showcase}>
                 {imageMapper}
             </div>
