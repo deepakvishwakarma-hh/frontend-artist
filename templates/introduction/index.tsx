@@ -18,7 +18,7 @@ const Introduction = () => {
                     🕵️‍♀️ Currently Design *This website. </motion.p>
             </div>
             <div className={classes.more}>
-                <a href="#">  Github</a>
+                <a href="https://github.com/deepakvishwakarma-hh" target={"_parent"}>  Github</a>
 
             </div>
         </div>
