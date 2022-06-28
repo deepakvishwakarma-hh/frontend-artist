@@ -25,7 +25,6 @@ const Wrapper = ({ date, heading, paragraph, images, index, link }: any) => {
         }
     }, [controls, inView]);
 
-
     const imageMapper = images?.map((src: string, index: any) => {
         return <img key={index} src={src} alt="project related images" />
     })
@@ -35,7 +34,7 @@ const Wrapper = ({ date, heading, paragraph, images, index, link }: any) => {
     }
 
     const onClick = () => {
-        Router.push(link)
+        window && window.open(link, '_ blank')
     }
 
     return (
