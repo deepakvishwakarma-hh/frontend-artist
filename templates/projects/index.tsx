@@ -7,7 +7,7 @@ const Project = () => {
             <Wrapper
                 link="https://github.com/deepakvishwakarma-hh/momentary-talk"
                 index={0}
-                date="2020 - current"
+                date="2020"
                 heading="Momentary ~ Web application"
                 paragraph=" Momentary is Secure Web Application.
                 Here user can create ( Generate Chat room ) and  Chat secreatly."
@@ -17,7 +17,7 @@ const Project = () => {
             <Wrapper
                 link="https://github.com/deepakvishwakarma-hh/crypto-market"
                 index={1}
-                date="2020 - current"
+                date="2020"
                 heading="Cryptoinf Place ~ Web application"
                 paragraph="cryptoinf fetch data from crypo api and show result. it is simple to use.
                 Live Fetching is Now available."
@@ -26,10 +26,18 @@ const Project = () => {
             <Wrapper
                 link="https://github.com/deepakvishwakarma-hh/blog-website-nextjs"
                 index={2}
-                date="2020 - current"
+                date="2020"
                 heading="Blogoo ~ Web application"
                 paragraph="here you can create mini blog and share as link."
                 images={['/project/blogoo.png', '/project/blogoo2.png',]}
+            />
+            <Wrapper
+                link="https://github.com/deepakvishwakarma-hh/live-forms"
+                index={3}
+                date="2021 - current"
+                heading="Liveforms ~ Powerfull & Free Tool for Develop , Deploy , Analyse Forms."
+                paragraph="The platform enables users to manage and analyse their form and form-database with greater transparency in a permissionless environment with a simplified and straightforward interface. Free for all makes it possible for everyday people to survey in a familiar environment but with decentralization at its core.."
+                images={['/project/liveforms-1.png', '/project/liveforms-2.png', '/project/liveforms-3.png', '/project/liveforms-4.png']}
             />
 
 
