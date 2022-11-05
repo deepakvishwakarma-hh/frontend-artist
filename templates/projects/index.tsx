@@ -5,6 +5,15 @@ const Project = () => {
         <div className={classes.container}>
 
             <Wrapper
+                link="https://github.com/deepakvishwakarma-hh/live-forms"
+                index={3}
+                date="2021 - current"
+                heading="Liveforms ~ Powerfull & Free Tool for Develop , Deploy , Analyse Forms."
+                paragraph="The platform enables users to manage and analyse their form and form-database with greater transparency in a permissionless environment with a simplified and straightforward interface. Free for all makes it possible for everyday people to survey in a familiar environment but with decentralization at its core.."
+                images={['/project/liveforms-1.png', '/project/liveforms-2.png', '/project/liveforms-3.png', '/project/liveforms-4.png']}
+            />
+
+            <Wrapper
                 link="https://github.com/deepakvishwakarma-hh/momentary-talk"
                 index={0}
                 date="2020"
@@ -19,7 +28,7 @@ const Project = () => {
                 index={1}
                 date="2020"
                 heading="Cryptoinf Place ~ Web application"
-                paragraph="cryptoinf fetch data from crypo api and show result. it is simple to use.
+                paragraph="Cryptoinf fetch data from crypo api and show result. it is simple to use.
                 Live Fetching is Now available."
                 images={['/project/crypto.png', '/project/crypto1.png', '/project/crypto2.png']}
             />
@@ -28,16 +37,8 @@ const Project = () => {
                 index={2}
                 date="2020"
                 heading="Blogoo ~ Web application"
-                paragraph="here you can create mini blog and share as link."
+                paragraph="In Blogoo, you can create mini-blog and share blog link."
                 images={['/project/blogoo.png', '/project/blogoo2.png',]}
-            />
-            <Wrapper
-                link="https://github.com/deepakvishwakarma-hh/live-forms"
-                index={3}
-                date="2021 - current"
-                heading="Liveforms ~ Powerfull & Free Tool for Develop , Deploy , Analyse Forms."
-                paragraph="The platform enables users to manage and analyse their form and form-database with greater transparency in a permissionless environment with a simplified and straightforward interface. Free for all makes it possible for everyday people to survey in a familiar environment but with decentralization at its core.."
-                images={['/project/liveforms-1.png', '/project/liveforms-2.png', '/project/liveforms-3.png', '/project/liveforms-4.png']}
             />
 
 
