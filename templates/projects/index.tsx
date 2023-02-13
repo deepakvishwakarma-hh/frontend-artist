@@ -7,7 +7,7 @@ const Project = () => {
             <Wrapper
                 link="https://github.com/deepakvishwakarma-hh/live-forms"
                 index={3}
-                date="2021 - current"
+                date="2021"
                 heading="Liveforms ~ Powerfull & Free Tool for Develop , Deploy , Analyse Forms."
                 paragraph="The platform enables users to manage and analyse their form and form-database with greater transparency in a permissionless environment with a simplified and straightforward interface. Free for all makes it possible for everyday people to survey in a familiar environment but with decentralization at its core.."
                 images={['/project/liveforms-1.png', '/project/liveforms-2.png', '/project/liveforms-3.png', '/project/liveforms-4.png']}
@@ -39,6 +39,15 @@ const Project = () => {
                 heading="Blogoo ~ Web application"
                 paragraph="In Blogoo, you can create mini-blog and share blog link."
                 images={['/project/blogoo.png', '/project/blogoo2.png',]}
+            />
+
+            <Wrapper
+                link="https://www.fiverr.com/deepak_vishwa/make-fast-react-website-web-development?context_referrer=user_page&ref_ctx_id=4b08a337ce1549d3d877353145f129b7&pckg_id=1&pos=1&imp_id=2b84d001-9747-41e9-ab5c-d993bcd81769"
+                index={2}
+                date="2023"
+                heading="Freelance - Stock Website Customization"
+                paragraph="Customizations were done on this project in which new page was created, API was fetched and data was rendered in table form. the client was from america"
+                images={['/project/fiverr-stock-website-1.png']}
             />
 
 

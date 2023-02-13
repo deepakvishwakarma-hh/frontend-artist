@@ -17,8 +17,7 @@ const Introduction = () => {
                     productivity, ethics. </motion.p>
             </div>
             <div className={classes.more}>
-                <a href="https://github.com/deepakvishwakarma-hh" target={"_parent"}>  Github</a>
-
+                <a href="https://github.com/deepakvishwakarma-hh" target={"_parent"}> 🌟 Github</a>
             </div>
         </div>
     )
